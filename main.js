@@ -1,9 +1,11 @@
 let num1 = 2;
 let num2 = 5;
 
-if (num1 > num2) {
-    console.log(num1)
+function greater(a, b) {
+if (a > b) {
+    return a;
 } else {
-    console.log(num2)
-}
+    return b;
+}}
 
+console.log(greater(num1,num2))
